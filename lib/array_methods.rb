@@ -4,7 +4,6 @@ end
 
 def find_max_value(array)
   max_value = 0
-
   array.each do |i|
     if i > max_value
       max_value = i
