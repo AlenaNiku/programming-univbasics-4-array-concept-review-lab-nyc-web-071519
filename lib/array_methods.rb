@@ -1,5 +1,6 @@
 def find_element_index(array, value_to_find)
-  array.select{|index| index = value_to_find}
+  array.each do |i|
+    array[i]
 
 
 end
